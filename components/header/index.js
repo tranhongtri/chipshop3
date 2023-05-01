@@ -54,7 +54,7 @@ class Header extends Component {
               <div className="col-lg-3">
                 <div className="navbar-header">
                   <Link onClick={ClickHandler} href="/home" className="navbar-brand">
-                    <img src='/images/logo.png' alt="icon" /> Annahl
+                    <img src='/images/logo.png' alt="ft-logo" /> Annahl
                   </Link>
                 </div>
               </div>
