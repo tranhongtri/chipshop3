@@ -1,5 +1,10 @@
 import React from "react";
 import Link from 'next/link'
+import Image from "next/image";
+
+import hero2 from '/public/images/slider/img-1.png'
+import hero3 from '/public/images/slider/img-2.png'
+import hero4 from '/public/images/slider/img-3.png'
 
 const Hero = () => {
     return (
@@ -19,10 +24,10 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className="right-image">
-                        <div className="simg-1"><img src='/images/slider/img-1.png' alt="slide-img" /></div>
-                        <div className="simg-2"><img src='/images/slider/img-2.png' alt="slide-img" /></div>
+                        <div className="simg-1"><Image src={hero2} alt="slide-img" /></div>
+                        <div className="simg-2"><Image src={hero3} alt="slide-img" /></div>
                     </div>
-                    <div className="hero-shape-img"><img src='/images/slider/img-3.png' alt="slide-img" /></div>
+                    <div className="hero-shape-img"><Image src={hero4} alt="slide-img" /></div>
                 </div>
             </div>
         </section>
