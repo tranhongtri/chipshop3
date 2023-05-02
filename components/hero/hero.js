@@ -2,9 +2,9 @@ import React from "react";
 import Link from 'next/link'
 import Image from "next/image";
 
-import hero2 from '/public/images/slider/img-1.png'
-import hero3 from '/public/images/slider/img-2.png'
-import hero4 from '/public/images/slider/img-3.png'
+import hero2 from '/images/slider/img-1.png'
+import hero3 from '/images/slider/img-2.png'
+import hero4 from '/images/slider/img-3.png'
 
 const Hero = () => {
     return (

@@ -6,7 +6,7 @@ import { removeFromCart, removeFromWishList } from "../../store/actions/action";
 import MobileMenu from "../MobileMenu";
 
 import Image from "next/image";
-import logo from '/public/images/logo.png'
+import logo from '/images/logo.png'
 
 
 class Header extends Component {
