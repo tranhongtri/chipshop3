@@ -4,6 +4,11 @@ import Link from "next/link";
 import { totalPrice } from "../../utils";
 import { removeFromCart, removeFromWishList } from "../../store/actions/action";
 import MobileMenu from "../MobileMenu";
+
+import Image from "next/image";
+import logo from '/public/images/logo.png'
+
+
 class Header extends Component {
   state = {
     isCartShow: false,
@@ -54,7 +59,8 @@ class Header extends Component {
               <div className="col-lg-3">
                 <div className="navbar-header">
                   <Link onClick={ClickHandler} href="/home" className="navbar-brand">
-                    <img src='/images/logo.png' alt="ft-logo" /> Annahl
+                    <img src={logo} alt="logo" /> Annahl
+                    {/* <img src='/images/logo.png' alt="ft-logo" /> Annahl */}
                   </Link>
                 </div>
               </div>
